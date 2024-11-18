@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ATM Interface</title>
+    <link rel="stylesheet" href="page4.css">
+</head>
+
+<body>
+    <div class="pcontainer">
+        <div class="atm">
+            <div class="head-card">
+                <p>SETTINGS</p>
+                <p>ATM</p>
+                <div class="d-flex flex-column">
+                    <span id="date"></span><br />
+                    <span id="time"></span>
+                </div>
+            </div>
+
+        <div class="amount-card">
+            <h1 class="h-main-set">ENTER OR SELECT AMOUNT</h1>
+            <div class="input-amount">
+                <label class="p-set-amount" for="amount-input">RS</label>
+                <input type="text" id="amount-input" class="input-set-style" />
+            </div>
+            <p class="p-set-amount">MAX AMOUNT - RS 30,000 | AVAILABLE NOTES RS 2000, RS 500, RS 200, RS 100</p>
+        
+            <div class="amount-buttons">
+                <div class="align-btn">
+                    <button class="btn-set" id="btn-2000">RS 2000</button>
+                    <button class="btn-set" id="btn-200">RS 200</button>
+                </div>
+                <div class="align-btn">
+                    <button class="btn-set" id="btn-500">RS 500</button>
+                    <button class="btn-set" id="btn-100">RS 100</button>
+                </div>
+            </div>
+            <div class="set-proceed">
+               <a href="page11main7.html" class="btn-set-select" id="btn-proceed">PROCEED</a>
+            </div>
+        </div>
+
+           <div class="foot-card">
+            <a href="index.html" class="nav-p-set">BACK/CANCEL</a>
+            <a href="page11main7.html" class="nav-p-set">CONFIRM</a>
+           </div>
+              
+
+        </div>
+    </div>
+            <script src="page4.js"></script>
+</body>
+
+</html>
